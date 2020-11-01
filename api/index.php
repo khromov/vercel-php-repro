@@ -20,6 +20,11 @@ $app->get('/hello/', function (Request $request, Response $response, array $args
     return $response;
 });
 
+$app->post('/post', function (Request $request, Response $response, array $args) {
+    $response->getBody()->write("Post route!");
+    return $response;
+});
+
 $app->get('/', function (Request $request, Response $response, array $args) {
     $response->getBody()->write("Index!");
     return $response;
