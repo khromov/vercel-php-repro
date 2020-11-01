@@ -1,8 +1,7 @@
 {
   "require": {
-    "slim/slim": "3.*",
-    "slim/php-view": "2.*",
-    "sendgrid/sendgrid" : "5.*",
-    "kminek/email-obfuscator" : "1.*"
+    "slim/slim": "4.*",
+    "slim/php-view": "3.*",
+    "slim/psr7": "^1.2"
   }
 }
